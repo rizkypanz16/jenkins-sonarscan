@@ -10,7 +10,7 @@ pipeline {
           sonar-scanner \
             -Dsonar.projectKey=jenkins-sonarscan \
             -Dsonar.sources=. \
-            -Dsonar.host.url=http://192.168.7.151 \
+            -Dsonar.host.url=http://192.168.7.151:9000 \
             -Dsonar.login=sqp_011309b4c8fee7fa5e6311181dabe158da67fb48
         '''
       }
